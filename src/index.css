@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ela-dark: #0a0a0c;
+  --color-ela-darker: #050506;
+  --color-ela-purple: #9b82c3;
+  --color-ela-purple-light: #b8a5d6;
+  --color-ela-purple-dark: #7a5ba3;
+  --color-ela-text: #f3f4f6;
+  --color-ela-muted: #9ca3af;
+  --color-ela-card: #141417;
+  --color-ela-card-hover: #1f1f23;
+}
+
+body {
+  @apply bg-[var(--color-ela-dark)] text-[var(--color-ela-text)] antialiased min-h-screen selection:bg-[var(--color-ela-purple)] selection:text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ela-darker);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ela-card-hover);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ela-purple-dark);
+}

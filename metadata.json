@@ -1,0 +1,5 @@
+{
+  "name": "Generated",
+  "description": "ganti api key nya dengan ini total 3 api jadi kalo ada api yang down masih ada cadangan\nBASE URL: https://api.siputzx.my.id\nOTAKUDESU\n\nGET /api/anime/otakudesu/search?s\u003d\u003cquery\u003e → cari anime\nGET /api/anime/otakudesu/ongoing → daftar ongoing\nGET /api/anime/otakudesu/detail?url\u003d\u003canime_url\u003e → detail + list episode [{title, link, date}]\nGET /api/anime/otakudesu/download?url\u003d\u003cepisode_url\u003e → link download [{quality, link, host}]\n\nSAMEHADAKU\n\nGET /api/anime/samehadaku/search?s\u003d\u003cquery\u003e → cari anime\nGET /api/anime/samehadaku/latest → anime terbaru\nGET /api/anime/samehadaku/release → jadwal rilis\nGET /api/anime/samehadaku/download?url\u003d\u003cepisode_url\u003e → link download\n\nOPLOVERZ\n\nGET /api/anime/oploverz-search?s\u003d\u003cquery\u003e → cari anime\nGET /api/anime/oploverz-ongoing → daftar ongoing\nGET /api/anime/oploverz-episode?url\u003d\u003cepisode_url\u003e → detail episode",
+  "requestFramePermissions": []
+}
